@@ -7,4 +7,4 @@ Banishes that annoying help button and the exit button to the The Shadow Realm.
 You could turn off this mod in the mod's settings when you have a better phone. Or if you have a game app to disable any redirects then this mod is useless. (Unless if you forgot to turn it on, this mod is a backup)
 
 yep that's it bye!!! 
-<img src="logo.png" width="150" alt="THE... THE LOGO IS REAL!!!!!!!!" / >
+<img src="logo.png" width="150" alt="THE... THE LOGO IS REAL!!!!!!!!"/>
