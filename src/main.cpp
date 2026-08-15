@@ -15,9 +15,9 @@ void banish(CCNode* victim) {
     victim->setVisible(false);
 }
 
-class $modify(EditorPauseLayer) { // colix - removed LevelEditorLayer for test // haturz1 - i think its a good reason to have LevelEditorLayer now // i took that back
-    bool init() {
-        if (!EditorPauseLayer::init()) {
+class $modify(EditorPauseLayer) {
+    bool init(LevelEditorLayer* layer) {
+        if (!EditorPauseLayer::init(layer)) {
             return false;
         }
         
@@ -32,9 +32,9 @@ class $modify(EditorPauseLayer) { // colix - removed LevelEditorLayer for test /
         
         auto exitButton = resumeMenu->getChildByID("exit-button");
         
-        if (isSettingEnabled("helpButtonOnly"))
+        if (isSettingEnabled("help-button-only"))
             banish(helpButton);
-        if (isSettingEnabled("exitButtonOnly"))
+        if (isSettingEnabled("exit-button-only"))
             banish(exitButton);
         guidelinesMenu->updateLayout();
         resumeMenu->updateLayout();
