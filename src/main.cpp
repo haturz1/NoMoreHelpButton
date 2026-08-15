@@ -3,6 +3,7 @@
 using namespace geode::prelude;
 
 #include <Geode/modify/EditorPauseLayer.hpp>
+ // maybe it wants 2?
 
 bool isSettingEnabled(std::string setting) {
     return Mod::get()->getSettingValue<bool>(setting);
@@ -12,7 +13,7 @@ void banish(CCNode* victim) {
     victim->setVisible(false);
 }
 
-class $modify(LevelEditorLayer, EditorPauseLayer) {
+class $modify(EditorPauseLayer) { // removed LevelEditorLayer for test
     bool init() {
         if (!EditorPauseLayer::init()) {
             return false
@@ -40,4 +41,4 @@ class $modify(LevelEditorLayer, EditorPauseLayer) {
         resumeMenu->updateLayout();
         return true
     }
-}
+};
