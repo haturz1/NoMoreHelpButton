@@ -16,14 +16,14 @@
     "description": "This mod hides the annoying help button and the exit button in the EditorPauseLayer for mobile creators!",
 
     "settings": {
-        "helpButtonOnly": {
-            "name": "Only helpButton",
+        "help-button-only": {
+            "name": "Only Help Button",
             "description": "Toggle off this checkbox and then the help button appear again without restarting. Easy as that.",
             "type": "bool",
             "default": true
         },
-        "exitButtonOnly": {
-            "name": "Only exitButton",
+        "exit-button-only": {
+            "name": "Only Exit Button",
             "description": "The exact same as the first one.",
             "type": "bool",
             "default": true
