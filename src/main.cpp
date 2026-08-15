@@ -40,4 +40,4 @@ class $modify(LevelEditorLayer, EditorPauseLayer) {
         resumeMenu->updateLayout();
         return true
     }
-};
+}
