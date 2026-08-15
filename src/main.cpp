@@ -15,10 +15,10 @@ void banish(CCNode* victim) {
     victim->setVisible(false);
 }
 
-class $modify(LevelEditorLayer, EditorPauseLayer) { // colix - removed LevelEditorLayer for test // haturz1 - i think its a good reason to have LevelEditorLayer now
+class $modify(EditorPauseLayer) { // colix - removed LevelEditorLayer for test // haturz1 - i think its a good reason to have LevelEditorLayer now // i took that back
     bool init() {
         if (!EditorPauseLayer::init()) {
-            return false
+            return false;
         }
         
         auto guidelinesMenu = this->getChildByID("guidelines-menu");
