@@ -93,5 +93,4 @@ runs:
             geode-build-ios
             geode-build-android32
             geode-build-android64
-          failOnError:
-          false
+          failOnError: false
