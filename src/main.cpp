@@ -26,7 +26,6 @@ class $modify(LevelEditorLayer, EditorPauseLayer) { // colix - removed LevelEdit
         if (!guidelinesMenu) return true;
         
         auto helpButton = guidelinesMenu->getChildByID("help-button");
-        
         auto resumeMenu = this->getChildByID("resume-menu");
         
         if (!resumeMenu) return true;
@@ -35,12 +34,10 @@ class $modify(LevelEditorLayer, EditorPauseLayer) { // colix - removed LevelEdit
         
         if (isSettingEnabled("helpButtonOnly"))
             banish(helpButton);
-        guidelinesMenu->updateLayout();
-        return true;
-        
         if (isSettingEnabled("exitButtonOnly"))
             banish(exitButton);
+        guidelinesMenu->updateLayout();
         resumeMenu->updateLayout();
-        return true
+        return true;
     }
 };
