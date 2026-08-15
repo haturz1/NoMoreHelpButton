@@ -37,7 +37,7 @@ jobs:
       - uses: actions/checkout@v7
 
       - name: Build the mod
-        uses: haturz1/NoMoreHelpButton@main
+        uses: haturz1/NoMoreHelpButton/combine@main
         with:
           combine: true
           target: ${{ matrix.config.target }}
