@@ -15,7 +15,7 @@ void banish(CCNode* victim) {
     victim->setVisible(false);
 }
 
-class $modify(EditorPauseLayer) { // removed LevelEditorLayer for test
+class $modify(LevelEditorLayer, EditorPauseLayer) { // colix - removed LevelEditorLayer for test // haturz1 - i think its a good reason to have LevelEditorLayer now
     bool init() {
         if (!EditorPauseLayer::init()) {
             return false
