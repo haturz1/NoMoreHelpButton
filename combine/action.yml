@@ -10,6 +10,16 @@ inputs:
     description: Whether to delete temporary artifacts left by the build action.
     required: false
     default: true
+    
+  combine:
+    description: whether to combine the platform builds
+    required: false
+    default: false
+    
+  target:
+    description: target platform to build
+    required: false
+    default: ''
 
 outputs:
   build-output:
