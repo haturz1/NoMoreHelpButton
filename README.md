@@ -1,2 +1,10 @@
 # NoMoreHelpButton
-simple mod that deletes the annoying help button and exit button since no one uses those
+Are you a mobile creator and everytime you want to copy and paste then you clicked the pause button because it was too damn close to the copy and paste button and you accidentally clicked the help button when you were trying to move that object and you get sent to Chrome and all the progress is lost because you have a "doodoo garbage" phone that can't even multitask?
+Well this mod is for you!
+# Functionality
+Banish that annoying help button to the The Shadow Realm.
+You could turn off this mod in the mod's settings when you have a better phone. Or if you have a game app to disable any redirects then this mod is useless. (Unless if you forgot to turn it on, this mod is a backup)
+
+yep that's it bye!!!
+<img src="logo.png" width="150" alt="THE... THE LOGO IS REAL!!!!!!!!" /
+  >
