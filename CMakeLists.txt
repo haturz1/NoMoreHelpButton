@@ -9,7 +9,7 @@ else()
     set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64")
 endif()
 
-project(NoStupidButtons VERSION 1.2.2)
+project(NoMoreHelpButton VERSION 1.0.0)
 
 add_library(${PROJECT_NAME} SHARED
     src/main.cpp
