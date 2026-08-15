@@ -3,7 +3,9 @@
 using namespace geode::prelude;
 
 #include <Geode/modify/EditorPauseLayer.hpp>
- // maybe it wants 2?
+#include <Geode/modify/LevelEditorLayer.hpp>
+ // colix - maybe it wants 2?
+ // haturz1 - yes it wants 2
 
 bool isSettingEnabled(std::string setting) {
     return Mod::get()->getSettingValue<bool>(setting);
