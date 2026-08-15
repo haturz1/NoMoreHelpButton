@@ -1,5 +1,6 @@
 # NoMoreHelpButton
 Are you a mobile creator and everytime you want to copy and paste then you clicked the pause button because it was too damn close to the copy and paste button and you accidentally clicked the help button when you were trying to move that object and you get sent to Chrome and all the progress is lost because you have a "doodoo garbage" phone that can't even multitask?
+
 Or when you accidentally clicked the exit button and lost all your progress?
 Well this mod is for you!
 # Functionality
