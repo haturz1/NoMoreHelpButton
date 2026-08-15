@@ -1,0 +1,32 @@
+{
+    "geode": "5.0.0",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "links": {
+        "source": "https://github.com/haturz1/NoMoreHelpButton"
+    },
+    "id": "haturz1.nomorehelpbutton",
+    "name": "NoMoreHelpButton",
+    "version": "v1.0.0",
+    "developer": "haturz1",
+    "description": "This mod hides the annoying help button and the exit button in the EditorPauseLayer for mobile creators!",
+
+    "settings": {
+        "helpButtonOnly": {
+            "name": "Only helpButton",
+            "description": "Toggle off this checkbox and then the help button appear again without restarting. Easy as that.",
+            "type": "bool",
+            "default": true
+        },
+        "exitButtonOnly": {
+            "name": "Only exitButton",
+            "description": "The exact same as the first one.",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
