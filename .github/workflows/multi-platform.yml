@@ -50,7 +50,6 @@ jobs:
     steps:
       - uses: haturz1/NoMoreHelpButton/combine@main
         id: build
-
       - uses: actions/upload-artifact@v7
         with:
           name: Build Output
