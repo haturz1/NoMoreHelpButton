@@ -22,6 +22,12 @@ else()
     message(STATUS "Found Geode: $ENV{GEODE_SDK}")
 endif()
 
+if(MSVC)
+    add_compile_options(/permissive-)
+else()
+    add_compile_options(-Wno-error=redeclared-class-member)
+endif()
+
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
 setup_geode_mod(${PROJECT_NAME})
