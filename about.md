@@ -11,6 +11,7 @@ You could turn off this mod in the mod's settings when you have a better phone. 
 it disables the help button on default btw
 # Credits
 - TimeStepYT for some of the code (i have permission to borrow some of his code and i can prove it)
+- cyolix for fixing some of my terrible coding
 # fun fact
 the help button is useless and <cr>nobody</c> even uses it that's why this mod was created
 and also the exit button
